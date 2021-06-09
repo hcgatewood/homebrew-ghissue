@@ -5,24 +5,24 @@
 class Ghissue < Formula
   desc ""
   homepage "https://github.com/hcgatewood/ghissue"
-  version "0.1.6"
+  version "0.1.7"
   bottle :unneeded
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/hcgatewood/ghissue/releases/download/v0.1.6/ghissue_0.1.6_Darwin_x86_64.tar.gz"
-      sha256 "7c41d77c8be0fbe57734b9d8276a3cc21eaefd701da928e6fbaa89e7a923447d"
+      url "https://github.com/hcgatewood/ghissue/releases/download/v0.1.7/ghissue_0.1.7_Darwin_x86_64.tar.gz"
+      sha256 "3d167deae00360809ef01480106892f322047068852163bf663301303cf82bdf"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/hcgatewood/ghissue/releases/download/v0.1.6/ghissue_0.1.6_Linux_x86_64.tar.gz"
-      sha256 "12d024a40c739edc05aef806c118f09b44882ed67fcd40b926a852926d173ed0"
+      url "https://github.com/hcgatewood/ghissue/releases/download/v0.1.7/ghissue_0.1.7_Linux_x86_64.tar.gz"
+      sha256 "d727b9f0953cea64a36cb86fe59f14a4108244a67f947e87e22572cf0809acc6"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/hcgatewood/ghissue/releases/download/v0.1.6/ghissue_0.1.6_Linux_arm64.tar.gz"
-      sha256 "80f445c43e259470154c940c1692506d9dc2752a222f40463deaab6633cb994d"
+      url "https://github.com/hcgatewood/ghissue/releases/download/v0.1.7/ghissue_0.1.7_Linux_arm64.tar.gz"
+      sha256 "883c7930f673563362cf7cdb06429d40f48f3dd8aefc323ce9fc46ca55b86a02"
     end
   end
 
